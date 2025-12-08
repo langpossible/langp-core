@@ -1,4 +1,4 @@
-package com.langpossible.plugin.core;
+package com.langpossible.core.plugin;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
