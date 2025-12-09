@@ -7,7 +7,6 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
 import java.util.Map;
-import java.util.Objects;
 
 @Data
 @Builder
@@ -18,6 +17,6 @@ public class PluginOutput {
 
     private String text;
 
-    private Map<String, Objects> json;
+    private Map<String, Object> json;
 
 }
