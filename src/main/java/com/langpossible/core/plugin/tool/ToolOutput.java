@@ -1,4 +1,4 @@
-package com.langpossible.core.plugin;
+package com.langpossible.core.plugin.tool;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -13,7 +13,7 @@ import java.util.Map;
 @AllArgsConstructor
 @NoArgsConstructor
 @Accessors(chain = true)
-public class PluginOutput {
+public class ToolOutput {
 
     private String text;
 
